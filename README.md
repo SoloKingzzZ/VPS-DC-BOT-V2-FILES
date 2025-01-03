@@ -4,7 +4,7 @@
 >
 > You need a Discord bot token from [Discord Developer Portal](https://discord.dev). Create a application there.
 >
-> If you need any support, join our support Discord and create a ticket: https://discord.gg/6CDmXw5Q
+> If you need any support, DM- solo_zip on discord
 
 **Features**
 - Quick and easy deployment using Docker
@@ -43,5 +43,3 @@
 - Compile the images using `docker build -t ubuntu-22.04-with-tmate -f Dockerfile1 . && docker build -t debian-with-tmate -f Dockerfile2 .` and wait for it to be done 
 - Edit .py file and paste the token where it says `TOKEN=`. You can get your bots token from [here](https://discord.dev). Edit the specified resources (if you want) to adjust how much resources are allocated per VPS.
 - Run the file by using `python3 main.py` or `python main.py` or `py main.py`
-
-If you want to see the bot in action or you are too lazy to deploy it yourself, you can invite our VPS bot [here](https://discord.com/oauth2/authorize?client_id=1249856618468737104&permissions=8&integration_type=0&scope=bot)
